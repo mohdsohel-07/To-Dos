@@ -38,28 +38,27 @@ A simple and efficient **To-Do List Web Application** built using **React.js**. 
 
 ---
 
-## 📂 Project Structure
-
 my-todos-app/
-├── public/
-│   └── index.html
+├── 📂 public/
+│   └── 📄 index.html
 │
-├── src/
-│   ├── MyComponentes/
-│   │   ├── Header.js
-│   │   ├── Footer.js
-│   │   ├── AddTodo.js
-│   │   ├── Todos.js
-│   │   ├── TodoItem.js
-│   │   ├── About.js
-│   │   └── SearchBar.js
+├── 📂 src/
+│   ├── 📂 MyComponentes/
+│   │   ├── 📄 Header.js
+│   │   ├── 📄 Footer.js
+│   │   ├── 📄 AddTodo.js
+│   │   ├── 📄 Todos.js
+│   │   ├── 📄 TodoItem.js
+│   │   ├── 📄 About.js
+│   │   └── 📄 SearchBar.js
 │   │
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   └── index.css
+│   ├── 📄 App.js
+│   ├── 📄 App.css
+│   ├── 📄 index.js
+│   └── 📄 index.css
 │
-├── .gitignore
-├── package.json
-├── README.md
-└── package-lock.json
+├── 📄 .gitignore
+├── 📄 package.json
+├── 📄 package-lock.json
+└── 📄 README.md
+

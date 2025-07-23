@@ -58,12 +58,4 @@ npm start
 
 App will be running at `http://localhost:3000`.
 
-## 👨‍💻 Author
 
-**Mohd Sohel**  
-📧 zaiduroy@gmail.com  
-🔗 [GitHub Profile](https://github.com/mohdsohel-07)
-
-## 📄 Resume
-
-📄 [View My Resume](https://github.com/mohdsohel-07/your-repo-name/blob/main/Mohd_Sohel_Resume.pdf)

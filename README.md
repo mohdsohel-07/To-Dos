@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-
 # 📝 To-Do List App
 
 A simple and responsive To-Do List application built using React.js that allows users to manage daily tasks efficiently.
+
 
 ## 📌 Features
 
@@ -18,10 +17,6 @@ A simple and responsive To-Do List application built using React.js that allows 
 - **Frontend:** React.js, HTML5, CSS3  
 - **State Management:** useState, useEffect  
 - **Tools:** Visual Studio Code, Git, GitHub
-
-## 📷 Screenshots
-
-![Todo App Screenshot](https://via.placeholder.com/800x400?text=Screenshot+Coming+Soon)
 
 ## 📁 Project Structure
 

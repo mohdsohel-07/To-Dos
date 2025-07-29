@@ -1,79 +1,61 @@
+<<<<<<< HEAD
+
 # 📝 To-Do List App
 
-A simple and intuitive To-Do List web application built using HTML, CSS, and JavaScript to help users manage their daily tasks effectively.
+A simple and responsive To-Do List application built using React.js that allows users to manage daily tasks efficiently.
 
-## 📸 Demo
+## 📌 Features
 
-![Screenshot](./screenshot.png) <!-- Replace this with actual screenshot file path -->
+- ➕ Add new tasks  
+- ✅ Mark tasks as complete  
+- 🗑️ Delete tasks  
+- 🔍 Search through your tasks  
+- 💾 Tasks persist using local storage  
+- 📱 Responsive design for all devices
 
-## 🚀 Features
+## 🛠️ Tech Stack
 
-* ✅ Add new tasks
-* ✏️ Edit existing tasks
-* 🗑️ Delete tasks
-* ✔️ Mark tasks as completed
-* 🌃 Light/Dark theme support *(optional if implemented)*
+- **Frontend:** React.js, HTML5, CSS3  
+- **State Management:** useState, useEffect  
+- **Tools:** Visual Studio Code, Git, GitHub
 
-## 🛠️ Technologies Used
+## 📷 Screenshots
 
-* HTML5
-* CSS3
-* JavaScript (Vanilla JS)
+![Todo App Screenshot](https://via.placeholder.com/800x400?text=Screenshot+Coming+Soon)
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-todos/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+my-todos-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── MyComponentes/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── AddTodo.js
+│   │   ├── Todos.js
+│   │   ├── TodoItem.js
+│   │   ├── About.js
+│   │   └── SearchBar.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── .gitignore
+├── package.json
+├── README.md
+└── package-lock.json
 ```
 
-## 📆 How to Run Locally
+## 🚀 How to Run Locally
 
-1. Clone the repository:
+```bash
+git clone https://github.com/mohdsohel-07/todo-list-app.git
+cd todo-list-app
+npm install
+npm start
+```
 
-   ```bash
-   git clone https://github.com/mohdsohel-07/To-Dos.git
-   ```
+App will be running at `http://localhost:3000`.
 
-2. Open the project folder:
-
-   ```bash
-   cd To-Dos
-   ```
-
-3. Launch the `index.html` file in your browser.
-
----
-
-## 🌐 Live Preview
-
-You can see the live version here:
-👉 [https://mohdsohel-07.github.io/To-Dos](https://mohdsohel-07.github.io/To-Dos)
-
-> *(Note: Ensure GitHub Pages is enabled for this repo under Settings > Pages)*
-
----
-
-## 📌 Screenshots
-
-Add a screenshot to visually show your app. To include a screenshot:
-
-1. Save your screenshot as `screenshot.png` in the root folder.
-2. It will auto-display above.
-
----
-
-## ✍️ Author
-
-**Mohd Sohel**
-📧 Email: [zaiduroy@gmail.com](mailto:zaiduroy@gmail.com)
-🔗 GitHub: [mohdsohel-07](https://github.com/mohdsohel-07)
-
----
-
-## 📃 License
-
-This project is licensed under the [MIT License](LICENSE).

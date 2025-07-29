@@ -1,134 +1,79 @@
-<<<<<<< HEAD
-
 # 📝 To-Do List App
 
-A simple and responsive To-Do List application built using React.js that allows users to manage daily tasks efficiently.
+A simple and intuitive To-Do List web application built using HTML, CSS, and JavaScript to help users manage their daily tasks effectively.
 
-## 📌 Features
+## 📸 Demo
 
-- ➕ Add new tasks  
-- ✅ Mark tasks as complete  
-- 🗑️ Delete tasks  
-- 🔍 Search through your tasks  
-- 💾 Tasks persist using local storage  
-- 📱 Responsive design for all devices
+![Screenshot](./screenshot.png) <!-- Replace this with actual screenshot file path -->
 
-## 🛠️ Tech Stack
+## 🚀 Features
 
-- **Frontend:** React.js, HTML5, CSS3  
-- **State Management:** useState, useEffect  
-- **Tools:** Visual Studio Code, Git, GitHub
+* ✅ Add new tasks
+* ✏️ Edit existing tasks
+* 🗑️ Delete tasks
+* ✔️ Mark tasks as completed
+* 🌃 Light/Dark theme support *(optional if implemented)*
 
-## 📷 Screenshots
+## 🛠️ Technologies Used
 
-![Todo App Screenshot](https://via.placeholder.com/800x400?text=Screenshot+Coming+Soon)
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
-my-todos-app/
-├── public/
-│   └── index.html
-├── src/
-│   ├── MyComponentes/
-│   │   ├── Header.js
-│   │   ├── Footer.js
-│   │   ├── AddTodo.js
-│   │   ├── Todos.js
-│   │   ├── TodoItem.js
-│   │   ├── About.js
-│   │   └── SearchBar.js
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   └── index.css
-├── .gitignore
-├── package.json
-├── README.md
-└── package-lock.json
+todos/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 ```
 
-## 🚀 How to Run Locally
+## 📆 How to Run Locally
 
-```bash
-git clone https://github.com/mohdsohel-07/todo-list-app.git
-cd todo-list-app
-npm install
-npm start
-```
+1. Clone the repository:
 
-App will be running at `http://localhost:3000`.
+   ```bash
+   git clone https://github.com/mohdsohel-07/To-Dos.git
+   ```
 
+2. Open the project folder:
 
-=======
-# Getting Started with Create React App
+   ```bash
+   cd To-Dos
+   ```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+3. Launch the `index.html` file in your browser.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌐 Live Preview
 
-### `npm start`
+You can see the live version here:
+👉 [https://mohdsohel-07.github.io/To-Dos](https://mohdsohel-07.github.io/To-Dos)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> *(Note: Ensure GitHub Pages is enabled for this repo under Settings > Pages)*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📌 Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Add a screenshot to visually show your app. To include a screenshot:
 
-### `npm run build`
+1. Save your screenshot as `screenshot.png` in the root folder.
+2. It will auto-display above.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✍️ Author
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Mohd Sohel**
+📧 Email: [zaiduroy@gmail.com](mailto:zaiduroy@gmail.com)
+🔗 GitHub: [mohdsohel-07](https://github.com/mohdsohel-07)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📃 License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 8599c0c (Sample Commit)
+This project is licensed under the [MIT License](LICENSE).

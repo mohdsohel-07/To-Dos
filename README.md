@@ -19,8 +19,8 @@ A simple and responsive To-Do List application built using React.js that allows 
 
 ## 📷 Screenshots
 
-![Todo App Screenshot](<img width="905" height="400" alt="image" src="https://github.com/user-attachments/assets/670c1a4a-fffc-42fa-9617-8eddb1e5ff6b" />
-)
+<img width="905" height="400" alt="image" src="https://github.com/user-attachments/assets/7433cfc6-ed09-46e4-9c05-b07ba02bdfd8" />
+
 
 ## 📁 Project Structure
 
@@ -83,4 +83,5 @@ Contributions, issues, and feature requests are welcome!
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
 
